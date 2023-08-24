@@ -4,18 +4,19 @@ body {
 }
 
 .grid1 {
-  margin: 10%;
+  margin: 3%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 8fr;
   gap: 20px;
+  width: 100px;
 }
 
 article {
   display: grid;
   grid-row: 2 / span1;
   box-sizing: border-box;
-  width: 100%;
+  width: fit-content;
   border: solid #000000 2px;
   padding: 5px;
 }
